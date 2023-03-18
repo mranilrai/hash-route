@@ -1,7 +1,7 @@
 import React from "react";
-import { createBrowserRouter, Link } from "react-router-dom";
+import { createHashRouter, Link } from "react-router-dom";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     children: [
